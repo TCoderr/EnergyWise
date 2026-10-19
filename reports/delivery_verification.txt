@@ -1,0 +1,20 @@
+EnergyWise - Delivery Verification
+Generated: 2026-10-19 02:41:44
+
+[PASS] Required files: 23/23 present
+[PASS] Notebook executed without errors: 19 code cells, all executed, errors=0
+[PASS] Notebook uses required operations: head/shape/describe/groupby/value_counts/isnull/split(42)/LinearRegression/MAE/RMSE/R2/score/predict/plots
+[PASS] Notebook has no Windows-specific paths (Colab): no drive-letter paths in code cells
+[PASS] At least 2 labelled figures: 6 PNG figures; titles=6, x-labels=6
+[PASS] Notebook metrics == trained model metadata: test MAE 2.1821, RMSE 3.0254, R2 0.9122; split 614/154
+[PASS] Report PDF: 1 page, numbers match notebook: pages=1; 9/9 values found
+[PASS] Deck: 3-5 slides, numbers match, PDF exported: slides=5, pdf pages=5, pictures=5
+[PASS] README metrics match: all 6 train/test metrics present
+[PASS] Author metadata = Tugay Sinan Ergün only: docx/pptx/pdf/notebook authors: {'Tugay Sinan Ergün'}
+[PASS] CSV and model hashes match metadata: data_sha256 and model_sha256 match
+[PASS] Dataset size meets guideline (>=20 rows, >=2 features): 768 rows, 8 features
+[PASS] At least 3 new predictions: [23.84, 34.82, 17.21]
+[PASS] Real console screenshot + transcript: screenshot 828x847; transcript shows prediction, invalid-input message and exit
+[PASS] Automated tests: 14 tests, 0 failures, 0 errors
+
+OVERALL: PASS (15/15)

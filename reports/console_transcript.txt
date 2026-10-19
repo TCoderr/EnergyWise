@@ -1,0 +1,43 @@
+# Gerçek konsol çalıştırması (conhost.exe + cmd.exe, app.py). Girdiler WriteConsoleInputW ile bu konsola yazıldı.
+# Tarih: 2026-10-19 02:37:55
+# Girdiler: ['1', 'abc', '1', '2', '0,25', '3', 'q']
+
+================================================================
+ EnergyWise — Bina Isıtma Yükü Tahmini (Linear Regression)
+================================================================
+
+[1] Tahmin yap   [2] Bina tiplerini göster   [q] Çıkış
+Seçiminiz: 1
+
+  Veri setindeki 12 simüle bina tipi (geometri):
+   No  Kompaktlık    Yüzey    Duvar     Çatı  Yükseklik
+    1        0.98    514.5    294.0   110.25        7.0
+    2        0.90    563.5    318.5   122.50        7.0
+    3        0.86    588.0    294.0   147.00        7.0
+    4        0.82    612.5    318.5   147.00        7.0
+    5        0.79    637.0    343.0   147.00        7.0
+    6        0.76    661.5    416.5   122.50        7.0
+    7        0.74    686.0    245.0   220.50        3.5
+    8        0.71    710.5    269.5   220.50        3.5
+    9        0.69    735.0    294.0   220.50        3.5
+   10        0.66    759.5    318.5   220.50        3.5
+   11        0.64    784.0    343.0   220.50        3.5
+   12        0.62    808.5    367.5   220.50        3.5
+
+Bina tipi numarası (1–12): abc
+  ! "abc" bir sayı değil. Lütfen 1–12 arasında bir değer girin (çıkmak için q).
+
+Bina tipi numarası (1–12): 1
+Yön kodu (2, 3, 4 veya 5): 2
+Cam alanı oranı (0.00–0.40, ör. 0,25): 0,25
+Cam dağılım kodu (1–5): 3
+
+>>> Tahmini ısıtma yükü: 28.29  (test kümesinde ortalama mutlak hata ≈ 2.18)
+    Girdiler: bina tipi 1, yön 2, cam oranı 0.25, dağılım 3.
+    Not: Simülasyon verisinden öğrenilmiş bir tahmin; birim UCI sayfasında verilmemiş.
+
+[1] Tahmin yap   [2] Bina tiplerini göster   [q] Çıkış
+Seçiminiz: q
+Görüşmek üzere!
+
+D:\Project\EnergyWise>

@@ -1,0 +1,40 @@
+{
+  "shape": [
+    768,
+    10
+  ],
+  "missing_total": 0,
+  "n_train": 614,
+  "n_test": 154,
+  "train_metrics": {
+    "MAE": 2.0413636834362467,
+    "RMSE": 2.8931187854208393,
+    "R2": 0.9170648846622238
+  },
+  "test_metrics": {
+    "MAE": 2.1820729961538934,
+    "RMSE": 3.0254268535103717,
+    "R2": 0.9121846294352439
+  },
+  "model_score_test_R2": 0.9121846294352439,
+  "findings": {
+    "yukseklik_ortalama_3_5": 13.34,
+    "yukseklik_ortalama_7_0": 31.28,
+    "cam_0_ortalama": 14.29,
+    "cam_0_40_ortalama": 25.41,
+    "yon_ortalama_fark": 0.121,
+    "en_guclu_pozitif_korelasyon": [
+      "overall_height",
+      0.889
+    ],
+    "en_guclu_negatif_korelasyon": [
+      "roof_area",
+      -0.862
+    ]
+  },
+  "new_predictions": [
+    23.84,
+    34.82,
+    17.21
+  ]
+}

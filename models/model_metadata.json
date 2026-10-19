@@ -1,0 +1,77 @@
+{
+  "model": "sklearn.linear_model.LinearRegression",
+  "sklearn_version": "1.9.1",
+  "features": [
+    "relative_compactness",
+    "surface_area",
+    "wall_area",
+    "roof_area",
+    "overall_height",
+    "orientation",
+    "glazing_area",
+    "glazing_area_distribution"
+  ],
+  "target": "heating_load",
+  "test_size": 0.2,
+  "random_state": 42,
+  "n_train": 614,
+  "n_test": 154,
+  "train_metrics": {
+    "MAE": 2.0413636834362467,
+    "RMSE": 2.8931187854208393,
+    "R2": 0.9170648846622238
+  },
+  "test_metrics": {
+    "MAE": 2.1820729961538934,
+    "RMSE": 3.0254268535103717,
+    "R2": 0.9121846294352439
+  },
+  "model_score_test_R2": 0.9121846294352439,
+  "intercept": 79.72697958259296,
+  "coefficients": {
+    "relative_compactness": -61.87335423897982,
+    "surface_area": -0.060105271362652174,
+    "wall_area": 0.03755346531954491,
+    "roof_area": -0.04882936835611659,
+    "overall_height": 4.123669206676688,
+    "orientation": -0.03243911252464731,
+    "glazing_area": 20.14319248319482,
+    "glazing_area_distribution": 0.21110283343317426
+  },
+  "feature_ranges": {
+    "relative_compactness": [
+      0.62,
+      0.98
+    ],
+    "surface_area": [
+      514.5,
+      808.5
+    ],
+    "wall_area": [
+      245.0,
+      416.5
+    ],
+    "roof_area": [
+      110.25,
+      220.5
+    ],
+    "overall_height": [
+      3.5,
+      7.0
+    ],
+    "orientation": [
+      2.0,
+      5.0
+    ],
+    "glazing_area": [
+      0.0,
+      0.4
+    ],
+    "glazing_area_distribution": [
+      0.0,
+      5.0
+    ]
+  },
+  "data_sha256": "09868b0a95fb6512161b6768899feefe65d1dd39fafe0d53fa71c72dea4bc90b",
+  "model_sha256": "b45df4b547588be2223b4c5514d5a61f2f91f42ecbfff7e4a4bdba17c9775b5d"
+}
