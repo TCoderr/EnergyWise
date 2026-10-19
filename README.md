@@ -74,9 +74,14 @@ Gerçek çalıştırma kanıtı:
 - Ekran görüntüsü: `reports/console_screenshot.png`
 - Metin kaydı: `reports/console_transcript.txt`
 
+## Bağlantılar
+
+- **GitHub (public):** https://github.com/TCoderr/EnergyWise
+- **Colab'da aç:** [notebooks/EnergyWise.ipynb](https://colab.research.google.com/github/TCoderr/EnergyWise/blob/main/notebooks/EnergyWise.ipynb). Bu, Colab'ın public GitHub notebook'larını açan resmî adres biçimidir.
+
 ## Google Colab'da çalıştırma
 
-1. https://colab.research.google.com → **Dosya → Not defteri yükle** → `notebooks/EnergyWise.ipynb`.
+1. Yukarıdaki "Colab'da aç" bağlantısını kullan **veya** https://colab.research.google.com → **Dosya → Not defteri yükle** → `notebooks/EnergyWise.ipynb`.
 2. **Çalışma zamanı → Tümünü çalıştır.** Notebook proje dosyalarını bulamazsa veriyi resmî UCI adresinden (`https://archive.ics.uci.edu/static/public/242/energy+efficiency.zip`) indirir. Bunun için internet gerekir. Grafikler `figures/` klasörüne kaydedilir.
 3. Gerekli kütüphaneler (pandas, numpy, matplotlib, scikit-learn, openpyxl) Colab'da hazır gelir; ek kurulum gerekmez.
 

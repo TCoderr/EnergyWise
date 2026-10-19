@@ -47,4 +47,4 @@ Durum: ✅ tamamlandı ve doğrulandı · ⚠️ tamamlandı, açık not var · 
 ## Kullanıcı aksiyonları
 
 1. 👤 Notebook'u Google Colab'da bir kez "Tümünü çalıştır" ile doğrula (README → Google Colab).
-2. 👤 Eğitimin teslim formu GitHub veya Colab bağlantısı istiyorsa paylaşım bağlantısını kendi hesabından oluştur. Bu projede GitHub'a gönderim yapılmadı.
+2. 👤 Teslim formu bağlantı istiyorsa: GitHub https://github.com/TCoderr/EnergyWise (public, onayınla oluşturuldu, HTTP 200 doğrulandı) · Colab'da aç: README'deki bağlantı.

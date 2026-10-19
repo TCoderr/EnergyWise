@@ -11,6 +11,8 @@ Proje uçtan uca tamamlandı:
 - **Testler:** 14 otomatik testin tamamı geçti.
 - **Rapor ve sunum:** Rapor (1 sayfa) ve sunum (5 slayt) gerçek çıktılardan üretildi ve Microsoft Office'te açılarak PDF'e aktarıldı.
 
+**GitHub:** https://github.com/TCoderr/EnergyWise (public). Proje sahibinin onayıyla oluşturuldu ve doğrulandı.
+
 **Tek açık konu:** Notebook Google Colab'da çalıştırılmadı (erişim yok).
 
 ## 2. Model sonuçları
@@ -67,7 +69,7 @@ Proje içi `.venv` (Python 3.12.10):
 ## 7. Kullanıcı aksiyonları
 
 1. Notebook'u Google Colab'da bir kez çalıştır.
-2. Teslim formu bağlantı istiyorsa GitHub'a veya Drive'a kendi hesabından yükle. Bu projede dış hesap işlemi yapılmadı.
+2. Teslim formu bağlantı istiyorsa GitHub adresini kullan: https://github.com/TCoderr/EnergyWise
 
 ## 8. Araçlar ve kaynaklandırma
 
